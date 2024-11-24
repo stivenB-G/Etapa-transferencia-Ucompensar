@@ -1,0 +1,202 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+.cv-container{
+    width: 100%;
+    margin: 0 auto;
+    max-width: 900px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.imagen-perfil img{
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    margin-right: 20px;
+    object-fit: cover;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #16384f;
+    padding-bottom: 10px;
+}
+.nombre-puesto{
+    display: flex;
+    flex-direction: column;
+}
+.nombre-puesto h1{
+    margin: 0;
+    font-size: 40px;
+}
+.nombre-puesto p{
+    margin: 5px 0 0 0;
+    font-size: 20px;
+    color: gray;
+    font-weight: bold;
+}
+.contact-info{
+    list-style: none;
+    padding: 0;
+    margin: 10px 0 0;
+}
+
+
+.section-1{
+    display: flex;
+    border-bottom: 2px solid #16384f;
+}
+.section1-contenido{
+    margin: 5px 0 0 0;
+    font-size: 15px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+.section1-titulo{
+    font-size: 15px;
+    width:800px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    padding: 10px 0px 2px 10px;
+}
+
+
+
+.section-2 {
+    display: flex;
+    flex-direction: column; 
+    gap: 20px; 
+    border-bottom: 2px solid #16384f;
+}
+
+.experiencia {
+    display: flex; 
+    align-items: flex-start;
+}
+
+.contenido-izquierda {
+    flex: 0 0 150px;
+    text-align: left;
+}
+
+.contenido-izquierda p {
+    margin: 5px 0; 
+}
+.ubicacion, 
+.fecha{
+    width: 190px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.contenido-derecha {
+    flex: 1; 
+}
+
+.titulo-profesion {
+    margin: 0;
+    margin-left: 170px;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+.organizacion{
+    margin: 5px;
+    margin-left: 170px;
+    font-size: 16px;
+    color: gray;
+}
+
+.section-contenido {
+    margin-left: 170px;
+    font-size: 15px;
+    line-height: 1.6;
+}
+.section2-titulo{
+    font-size: 15px;
+    width: 115px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    padding: 10px 0px 2px 10px;
+}
+
+
+.section-3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: 2px solid #16384f;
+}
+.section3-titulo{
+    font-size: 15px;
+    width: 115px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    padding: 10px 0px 2px 10px;
+}
+
+
+.section-4{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-bottom: 2px solid #16384f;
+}
+.contenido-izquierda-section4 {
+    flex: 0 0 150px;
+    text-align: left;
+}
+.section4-habilidades{
+    width: 240px;
+}
+.contenido-derecha-section4 {
+    flex: 1; 
+    
+}
+.references{
+    margin-left: 210px;
+    text-align-last: left;
+    margin-bottom: 40px;
+}
+.section4-habilidades{
+    font-size: 15px;
+    width: 155px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    padding: 10px 0px 2px 10px;
+}
+.section4-references{
+    font-size: 15px;
+    width: 130px;
+    background-color: black;
+    color: #fff;
+    padding: 10px 0px 10px 20px;
+    margin-left: 230px;
+}
+
+.section5-titulo{
+    font-size: 15px;
+    width: 235px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    padding: 10px 0px 2px 10px;
+}
+
+
+
+
